@@ -15,3 +15,19 @@ Naviagtion menu: important links
 Main Content: highlight my skills
 
 Footer: copyright information
+
+## wireframes 2
+![alt text](<wireframes/wireframe image.png>)
+Header 2
+navigation menu 2
+main content 2
+footer 2
+
+## wireframes 3
+![
+](<wireframes/wireframe image.png>)
+
+Header 3
+navigation menu 3
+main content 3
+footer 3
