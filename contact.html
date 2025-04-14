@@ -8,40 +8,74 @@
 
 <body>
   <header>
-    <nav class= "main-menu">
-      <a href="index.html" class= "site-name"><h1>Hanan Hussein Portfolio</h1></a>
-      
+    <nav class="main-menu">
+      <a href="index.html" class="site-name"><h1>Hanan Hussein Portfolio</h1></a>
       <ul>
-        <li><a href="explore.html">explore </a></li>
-        <li><a href="about_me.html">about me </a></li>
+        <li><a href="explore.html">explore</a></li>
+        <li><a href="about_me.html">about me</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>  
   </header>
-  
-  
+
   <main>
-    <img src="images/magic books kids copy.jpg" alt="magic book" />
-    <div>
-      
+    <!-- Enhanced Contact Form -->
+    <form
+      action="https://formspree.io/f/xblgwvre"
+      method="POST"
+      style="max-width: 500px; margin: 2rem auto; padding: 2rem; border: 1px solid #ccc; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #f9f9f9; font-family: sans-serif;"
+    >
+      <h2 style="text-align:center; margin-bottom: 1.5rem;">Contact Me</h2>
+
+      <label style="display: block; margin-bottom: 1rem;">
+        <span style="display: block; font-weight: bold; margin-bottom: 0.5rem;">Your Email</span>
+        <input
+          type="email"
+          name="email"
+          required
+          style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+        />
+      </label>
+
+      <label style="display: block; margin-bottom: 1rem;">
+        <span style="display: block; font-weight: bold; margin-bottom: 0.5rem;">Your Message</span>
+        <textarea
+          name="message"
+          required
+          rows="6"
+          style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; resize: vertical;"
+        ></textarea>
+      </label>
+
+      <button
+        type="submit"
+        style="width: 100%; background-color: #007BFF; color: white; border: none; padding: 0.75rem; border-radius: 8px; font-size: 1rem; cursor: pointer; transition: background-color 0.3s ease;"
+        onmouseover="this.style.backgroundColor='#0056b3'"
+        onmouseout="this.style.backgroundColor='#007BFF'"
+      >
+        Send Message
+      </button>
+    </form>
+
+    <img src="images/magic books kids copy.jpg" alt="magic book" style="display: block; margin: 2rem auto; max-width: 100%; border-radius: 12px;" />
+
+    <div style="text-align: center;">
       <h1>husseih@dearbornschools.org</h1> 
+      <p>School Library Media Specialist</p>
     </div>
-    
-    
-    <p>School Library Media Specialist </p>
   </main>
-  
-  
+
   <footer> 
     <div> 
       <h2>Visit us</h2>
-      <address> 2723 Salina Street, Dearborn, Mi 48120</address>
-      <tel> 313-827-6600</tel>
+      <address>2723 Salina Street, Dearborn, Mi 48120</address>
+      <tel>313-827-6600</tel>
     </div>
   </footer>
-  
 </body>
 </html>
+
+
 
     
 
